@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="example.com.itprogramminghub" platformBuildVersionCode="22" platformBuildVersionName="5.1.1-1819727">
+	<uses-sdk android:minSdkVersion="11" android:targetSdkVersion="22" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-feature android:glEsVersion="131072" android:required="true" />
+	<android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" android:maxSdkVersion="18" />
+	<uses-permission android:name="android.permission.GET_ACCOUNTS" />
+	<uses-permission android:name="android.permission.USE_CREDENTIALS" />
+	<application android:theme="null" android:label="CodeBuk" android:icon="res/mipmap-mdpi-v4/ic_launcher.png" android:allowBackup="true">
+		<meta-data android:name="com.google.android.gms.version" android:value="7571000" />
+		<activity android:label="CodeBuk" android:name="example.com.itprogramminghub.MainActivity" android:screenOrientation="portrait" />
+		<activity android:label="CppActivity" android:name="example.com.itprogramminghub.JavaActivity" android:screenOrientation="portrait" />
+		<activity android:label="WebActivity" android:name="example.com.itprogramminghub.WebActivity" android:screenOrientation="portrait" />
+		<activity android:label="CppActivity" android:name="example.com.itprogramminghub.CppActivity" android:screenOrientation="portrait" />
+		<activity android:label="CodeBuk" android:name="example.com.itprogramminghub.SplashActivity">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:label="RateActivity" android:name="example.com.itprogramminghub.RateActivity" android:screenOrientation="portrait" />
+		<activity android:label="CssActivity" android:name="example.com.itprogramminghub.CssActivity" />
+		<activity android:label="PhpActivity" android:name="example.com.itprogramminghub.PhpActivity" />
+		<activity android:label="HtmlActivity" android:name="example.com.itprogramminghub.HtmlActivity" />
+		<activity android:label="SqlActivity" android:name="example.com.itprogramminghub.SqlActivity" />
+		<activity android:label="Activity" android:name="example.com.itprogramminghub.NetActivity" />
+		<activity android:theme="@android:style/Theme.Translucent" android:name="com.google.android.gms.ads.AdActivity" android:configChanges="keyboard" />
+		<activity android:label="RecyclerViewTestActivity" android:name="android.support.v7.widget.TestActivity" />
+		<activity android:theme="null" android:name="com.google.android.gms.ads.purchase.InAppPurchaseActivity" />
+		<meta-data android:name="com.google.android.gms.wallet.api.enabled" android:value="true" />
+		<receiver android:name="com.google.android.gms.wallet.EnableWalletOptimizationReceiver" android:exported="false">
+			<intent-filter>
+				<action android:name="com.google.android.gms.wallet.ENABLE_WALLET_OPTIMIZATION" />
+			</intent-filter>
+		</receiver>
+	</application>
+</manifest>

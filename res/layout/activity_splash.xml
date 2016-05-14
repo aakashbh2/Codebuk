@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="c5cae9" android:layout_width="-1" android:layout_height="-1">
+	<TextView android:textSize="70dp" android:textStyle="1" android:textColor="ffffff" android:gravity="17" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="50dp" android:text="CodeBuk" />
+	<ImageView android:layout_width="-1" android:layout_height="-2" android:src="res/drawable/theme.png" android:layout_below="false" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

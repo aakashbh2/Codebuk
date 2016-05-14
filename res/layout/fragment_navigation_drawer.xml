@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="resourceId:0x106000b" android:layout_width="-1" android:layout_height="-1">
+	<RelativeLayout android:id="false" android:background="5c6bc0" android:layout_width="-1" android:layout_height="140dp" android:layout_alignParentTop="true">
+		<TextView android:textSize="50dp" android:textStyle="1" android:textColor="ffffff" android:gravity="17" android:id="false" android:layout_width="-1" android:layout_height="-1" android:text="CodeBuk" />
+	</RelativeLayout>
+	<android.support.v7.widget.RecyclerView android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="150dp" />
+</RelativeLayout>
